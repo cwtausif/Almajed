@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".LandingActivity">
+
+    <TextView
+        android:text="Car Search"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/searchTextSize"
+        android:textColor="@color/yellow"
+        android:layout_marginBottom="@dimen/car_search_margin_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="@string/car_number"
+        android:gravity="center_horizontal"
+        android:textColor="@color/yellow"
+        android:textSize="@dimen/title_size_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/car_number_tv"
+        android:background="@drawable/mystyle"
+        android:layout_gravity="center_horizontal"
+        android:ems="11"
+        android:inputType="number"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="35sp" />
+    <TextView
+        android:text="@string/or"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="@dimen/or_size"
+        android:textColor="@color/yellow"
+        android:padding="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="@string/mobile_number"
+        android:gravity="center_horizontal"
+        android:textColor="@color/yellow"
+        android:textSize="@dimen/title_size_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/mobile_number_tv"
+        android:layout_gravity="center_horizontal"
+        android:ems="11"
+        android:inputType="text"
+        android:background="@drawable/mystyle"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="35sp" />
+    <Button
+        android:id="@+id/searchNow_btn"
+        android:background="@color/yellow"
+        android:text="@string/searchnow"
+        android:layout_marginTop="@dimen/car_search_margin_bottom"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="@dimen/searchbtnwidth"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/admin_btn"
+        android:text="@string/admin"
+        android:visibility="gone"
+        android:background="@color/yellow"
+        android:layout_marginTop="10sp"
+        android:textColor="@color/white"
+        android:layout_width="@dimen/searchbtnwidth"
+        android:layout_height="wrap_content" />
+</LinearLayout>

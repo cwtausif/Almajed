@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Almajed Garage</string>
+    <string name="searchnow">Search Now</string>
+    <string name="car_number">Car Number</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="or">OR</string>
+    <string name="admin">Admin</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="example_email">example@email.com</string>
+    <string name="login">Login</string>
+    <string name="example_password">123456</string>
+    <string name="pics_upload">Pics upload</string>
+    <string name="car_registration">Car Registration</string>
+    <string name="current_status">Current Status</string>
+    <string name="comments">Comments</string>
+    <string name="save">Save</string>
+    <string name="admin_menu">Admin Menu</string>
+    <string name="add_new_car">Add New Car</string>
+    <string name="all_cars">All Cars</string>
+    <string name="logout">Logout</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="view">View Details</string>
+    <string name="status">Status</string>
+    <string name="description">Description</string>
+    <string name="back">Back</string>
+    <string name="update">Update Record</string>
+    <string name="search">Search</string>
+    <string name="location">Location</string>
+    <string name="contact">Contact</string>
+    <string name="newadmin">Add New Admin</string>
+    <string name="manageAdmins">Manage Admins</string>
+    <string name="settings">Account Settings</string>
+    <string name="aboutus">About Us</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

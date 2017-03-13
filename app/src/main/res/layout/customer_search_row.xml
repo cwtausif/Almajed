@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <ImageView
+        android:id="@+id/car_image_row"
+        android:src="@drawable/car_row"
+        android:padding="8sp"
+        android:scaleType="fitXY"
+        android:layout_width="140sp"
+        android:layout_height="140sp" />
+
+    <RelativeLayout
+        android:id="@+id/carno_layout"
+        android:layout_toRightOf="@id/car_image_row"
+        android:layout_toEndOf="@+id/car_image_row"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/statusTVtitle"
+            android:textSize="16sp"
+            android:text="@string/status"
+            android:textColor="@color/yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/statusTV"
+            android:text="Pending"
+            android:textSize="15sp"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/carno_layout"
+        android:id="@+id/carstatus_layout"
+        android:layout_toRightOf="@+id/car_image_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="5sp"
+            android:id="@+id/description"
+            android:textSize="16sp"
+            android:text="@string/description"
+            android:textColor="@color/yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/descriptionTVcar"
+            android:text="Your car is in pending status will be availabe to you in few hours"
+            android:textSize="14sp"
+            android:layout_below="@id/description"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_toEndOf="@+id/car_image_row"
+        android:layout_toRightOf="@+id/car_image_row"
+        android:layout_below="@+id/carstatus_layout"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/viewDetails_btn"
+            android:text="@string/view"
+            android:background="@color/yellow"
+            android:textColor="@color/white"
+            android:layout_marginBottom="5sp"
+            android:layout_height="28sp"
+            android:layout_width="120sp"
+            />
+    </LinearLayout>
+</RelativeLayout>

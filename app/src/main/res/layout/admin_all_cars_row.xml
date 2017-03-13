@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <ImageView
+        android:id="@+id/car_image_row"
+        android:src="@drawable/car_row"
+        android:padding="2sp"
+        android:scaleType="fitXY"
+        android:layout_width="110sp"
+        android:layout_height="110sp" />
+
+    <RelativeLayout
+        android:id="@+id/carno_layout"
+        android:layout_toRightOf="@id/car_image_row"
+        android:layout_toEndOf="@+id/car_image_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="5sp"
+            android:id="@+id/carnotitle"
+            android:textSize="@dimen/row_car_no"
+            android:text="@string/car_number"
+            android:textColor="@color/yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/carno_tv"
+            android:text="xml-7264"
+            android:textSize="@dimen/row_car_no"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/carno_layout"
+        android:id="@+id/carstatus_layout"
+        android:layout_toRightOf="@+id/car_image_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="5sp"
+            android:id="@+id/statustitle"
+            android:textSize="@dimen/row_car_no"
+            android:text="@string/current_status"
+            android:textColor="@color/yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/status_tv"
+            android:text="Working"
+            android:textSize="@dimen/row_car_no"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_toEndOf="@+id/car_image_row"
+        android:layout_toRightOf="@+id/car_image_row"
+        android:layout_below="@+id/carstatus_layout"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/row_edit"
+            android:text="@string/edit"
+            android:background="@color/yellow"
+            android:textColor="@color/white"
+            android:layout_height="28sp"
+            android:layout_width="wrap_content"
+            />
+        <Button
+            android:id="@+id/row_del"
+            android:layout_marginLeft="10sp"
+            android:text="@string/delete"
+            android:background="@color/yellow"
+            android:textColor="@color/white"
+            android:layout_height="28sp"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

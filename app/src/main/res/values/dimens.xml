@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="searchTextSize">30sp</dimen>
+    <dimen name="searchbtnwidth">150sp</dimen>
+    <dimen name="title_size_search">15sp</dimen>
+    <dimen name="or_size">20sp</dimen>
+    <dimen name="car_search_margin_bottom">20sp</dimen>
+    <dimen name="pics_upload_size">18dp</dimen>
+    <dimen name="reg_labels">20sp</dimen>
+    <dimen name="admin_menu">35sp</dimen>
+    <dimen name="row_car_no">16sp</dimen>
+    <dimen name="imagesize">130sp</dimen>
+    <dimen name="menuBtnPadding">10dp</dimen>
+    <dimen name="menuMargin">3dp</dimen>
+</resources>
